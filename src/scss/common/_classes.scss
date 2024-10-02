@@ -35,3 +35,7 @@
   }
 
 }
+
+.visually-hidden{
+  @include visually-hidden;
+}
