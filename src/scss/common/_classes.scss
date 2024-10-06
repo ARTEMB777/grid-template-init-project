@@ -14,7 +14,6 @@
 
   &:hover,
   &:focus {
-    border-color: $color-white;
     background-color: $color-accent;
   }
 
@@ -36,6 +35,11 @@
       min-width: 170px;
       min-height: 40px;
     }
+
+    &:hover,
+    &:focus {
+      border-color: $color-white;
+    }
   }
 
   &--primary {
@@ -51,6 +55,11 @@
     }
     @include sm {
       width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $color-primary;
     }
   }
 }
