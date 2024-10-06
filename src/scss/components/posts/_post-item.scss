@@ -41,6 +41,10 @@
     object-fit: cover;
   }
 
+  &__title{
+    font-family: $font-header;
+  }
+
   &__content {
     padding: $gap-lg $gap;
 
